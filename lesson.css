@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.mani{
+    width: 100%;
+    min-height: 750px;
+    background: gray;
+    background: url("./img/bg-hero.jpg") no-repeat center/cover; 
+}
+.main__dark{
+    width: 100%;
+    height: 750px;
+    background: #0e0e27de;
+    padding: 0 10%;
+}
+.navbar{
+    height: 70px;
+    color: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__logo{
+    color: #fea116;
+    font-size: 36px;
+}
+.nav__collection{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+.nav__collection li{
+    text-transform: uppercase;
+}
+.nav__collection li:hover{
+    color: #fea116;
+    cursor: pointer;
+}
+.btn{
+    padding: 10px 30px;
+    background: #fea116;
+    color: wheat;
+    border: none;
+    text-transform: uppercase;
+}
+.content{
+    display: flex;
+    padding-top: 50px;
+    gap: 50px;
+}
+.content__text,
+.content__image{
+    width: 50%;
+    min-height: 400px;
+   
+}
+.content__text{
+    color: wheat;
+    padding-top: 80px;
+}
+.content__text h1{
+    font-size: 60px;
+    font-family: cursive;
+}
+.content__text p{
+    padding: 30px 0;
+    line-height: 1.6;
+}
+.content__image img{
+    width: 100%;
+    animation: aylan 60s linear infinite;
+}
+@keyframes aylan {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+.weapper{
+    display: flex;
+    padding: 50px 10%;
+    gap: 20px;
+    background: 100% rgb(230, 228, 228);
+}
+.box{
+    width: 300px;
+    min-height: 200px;
+    background: rgb(248, 245, 245);
+}
+.box h3 {
+    padding-top: 60px;
+    padding-left: 15px;
+}
+.box p {
+    padding-left: 15px;
+    line-height: 1.4;
+}
+i{
+  
+    padding-left: 15px;
+    font-size: 46px;
+    color: #fea116;
+}
+
+.weapper{
+    display: flex;
+    padding: 50px 10%;
+    gap: 20px;
+    background: 100% rgb(230, 228, 228);
+}
+.box{
+    width: 300px;
+    min-height: 200px;
+    background: rgb(248, 245, 245);
+}
+.men{
+    width: 50%;
+    min-height: 500px;
+    background: gray;
+    background: url("./img/6kh.jpg") no-repeat center/cover; 
+}
+.vor{
+    margin-left: 100%;
+    width: 675px;
+    height: 710px;
+    background: rgb(37, 37, 95);
+    padding-top: 190px;
+}
+.vor h4 {
+    padding-top: 30px;
+    padding-left:  30px;
+    color: #fea116;
+    font-family: cursive;
+}
+.vor h1 {
+    padding-top: 10px;
+    padding-left:  30px;
+    color: #ffffff;
+}
+ .vor input{   
+    margin-left: 40px;
+    width: 40%;
+    height: 50px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    outline: none;
+}
+.non{
+    width: 235%;
+    height: 500px;
+    padding-right: 50px;
+}
+.btnn{
+    margin-left: 40px;
+    width: 40%;
+    height: 60px;
+    padding: 10px 30px;
+    background: #fea116;
+    color: wheat;
+    border: none;
+    text-transform: uppercase;
+}
+.var h3 {
+    color: #fea116;
+    text-align: center;
+    font-family: cursive;
+}
+.var h1 {
+    text-align: center;
+}
+
+
+
+.volvo{
+    display: flex;
+    padding: 50px 10%;
+    gap: 30px;
+    background: 100% rgb(230, 228, 228);
+}
+.lol{
+    width: 400px;
+    min-height: 302px;
+    background: rgb(248, 245, 245);
+}
+.ono{
+    width: 190px;
+    min-height: 190px;
+    padding-left: 20px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background: rgb(218, 218, 218);
+    background: url("./img/team-1.jpg") no-repeat center/cover; 
+}
+.onoo{
+    width: 190px;
+    min-height: 190px;
+    padding-left: 20px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background: rgb(218, 218, 218);
+    background: url("./img/team-2.jpg") no-repeat center/cover; 
+}
+.anoo{
+    width: 190px;
+    min-height: 190px;
+    padding-left: 20px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background: rgb(218, 218, 218);
+    background: url("./img/team-3.jpg") no-repeat center/cover; 
+}
+.aoo{
+    width: 190px;
+    min-height: 190px;
+    padding-left: 20px;
+    margin-left: 30px;
+    border-radius: 50%;
+    background: rgb(218, 218, 218);
+    background: url("./img/team-4.jpg") no-repeat center/cover; 
+}
+
+.omo{
+    margin-left: 75px;
+    
+}
+
+.daf{
+    display: flex;
+    padding: 50px 3%;
+    gap: 40px;
+    background: 100% rgb(230, 228, 228);
+}
+.dafe {
+    width: 3000px;
+    min-height: 260px;
+    background: rgb(248, 245, 245);
+}
+.dafe  b {
+    margin-left: 60px;
+}
+.frt{
+    margin-left: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
